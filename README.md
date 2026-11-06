@@ -54,6 +54,7 @@
 | Project | Description | Skills |
 |---|---|---|
 | [**STM32 통합 시계**](https://github.com/gurwn031107-web/stm32-integrated-clock-lcd-rtc-stepmotor) | DS3231 RTC 시계 + 스톱워치, I2C LCD 표시, 스텝모터 3개로 시/분/초 바늘 구동 | STM32, C, HAL, I2C, Timer IRQ |
+| [**STM32 3층 엘리베이터**](https://github.com/gurwn031107-web/STM32-Embedded-Project-2026/tree/main/20261105_Elevator) | 미니 프로젝트: 스텝모터와 포토 인터럽터로 층을 인식해 멈추는 엘리베이터, 상태 머신(원점 잡기, 에러 감지), 도착 딩동과 문 열림, PC 프로그램 UART 제어 | STM32, C, HAL, TIM PWM, I2C, UART, PySide6 |
 | [STM32 Embedded Project 2026 (실습)](https://github.com/gurwn031107-web/STM32-Embedded-Project-2026) | 수업 실습 23개 (GPIO, 타이머 인터럽트, I2C LCD/RTC, 스텝모터, DHT11/HC-SR04/ADC, PWM 부저, UART 통신 PC GUI, 엘리베이터) | STM32, C, HAL, Python(PySide6) |
 
 ## Xilinx (RTL / UVM)
@@ -70,4 +71,4 @@
 | [**WAKEY 미션 알람시계**](https://github.com/gurwn031107-web/wakey-mission-alarm-clock) | 손 패턴, 물건 찾기, 눈 뜸 유지 3가지 카메라 미션을 통과해야 꺼지는 알람시계 (팀) | Raspberry Pi, Python, Flask, MediaPipe, TFLite, YOLO11n |
 | [AI System Project 2026 (실습)](https://github.com/gurwn031107-web/AI-System-Project-2026) | Python 기초, 머신러닝 기초, CNN, Keras 실습, 라즈베리파이 TFLite 추론 | Python, Keras, TFLite, OpenCV |
 
-> 분야별 첫 줄은 대표 프로젝트, 두 번째 줄은 수업 시간에 작성한 실습 코드 모음입니다.
+> 굵은 글씨는 프로젝트, (실습)은 수업 시간에 작성한 실습 코드 모음입니다.
