@@ -54,21 +54,23 @@
 | Project | Description | Skills |
 |---|---|---|
 | [**STM32 통합 시계**](https://github.com/gurwn031107-web/stm32-integrated-clock-lcd-rtc-stepmotor) | DS3231 RTC 시계 + 스톱워치, I2C LCD 표시, 스텝모터 3개로 실제 시·분·초 바늘 구동 | STM32, C, HAL, I2C, Timer IRQ |
-| [STM32 StopWatch & TimeClock](https://github.com/gurwn031107-web/stm32-stopwatch-timeclock-fnd) | 타이머 인터럽트 + 상태 머신으로 구현한 FND 시계/스톱워치 | STM32, C, HAL, FND |
+| [📚 STM32 Embedded Project 2026](https://github.com/gurwn031107-web/STM32-Embedded-Project-2026) | 수업 실습 23개: GPIO 레지스터 제어 → 타이머 인터럽트 → I2C LCD·RTC → 스텝모터 → DHT11·HC-SR04·ADC → PWM 부저 → UART 프로토콜·PC GUI → 엘리베이터 | STM32, C, HAL, Python(PySide6) |
 
 ## 🧩 Xilinx (RTL / UVM)
 
 | Project | Description | Skills |
 |---|---|---|
 | [**RV32I Multi-Cycle CPU + UVM**](https://github.com/gurwn031107-web/proj_rv32i_multi_cycle_cpu) | RV32I 멀티사이클 CPU + APB 주변장치(BRAM·GPI·GPO), 19개 R/I-Type 명령어 80,000건 UVM 랜덤 검증 (팀) | SystemVerilog, UVM, VCS, Verdi, APB |
-| [Semiconductor System Design Project 2026](https://github.com/gurwn031107-web/Semiconductor-System-Design-Project-2026) | Dedicated CPU, RV32I + APB, Adder/Counter/RAM UVM, FIFO 테스트벤치 실습 모음 | SystemVerilog, UVM, VCS |
+| [📚 Semiconductor System Design Project 2026](https://github.com/gurwn031107-web/Semiconductor-System-Design-Project-2026) | Verilog 16개(게이트 → FSM → UART·FIFO·센서 → 미니 프로젝트), CPU/SoC 6개(Dedicated CPU → RV32I → APB), 검증 8개(SV 테스트벤치 → OOP → UVM) | Verilog, SystemVerilog, UVM, Vivado, VCS, Basys-3 |
 
 ## 🤖 AI System
 
 | Project | Description | Skills |
 |---|---|---|
 | [**WAKEY 미션 알람시계**](https://github.com/gurwn031107-web/wakey-mission-alarm-clock) | 손 패턴·물건 찾기·눈 뜸 유지 3가지 카메라 미션을 통과해야 꺼지는 알람시계 (팀) | Raspberry Pi, Python, Flask, MediaPipe, TFLite, YOLO11n |
-| [Deep Learning Keras Labs](https://github.com/gurwn031107-web/deep-learning-keras-labs) | 회귀·분류·CNN 실습과 라즈베리파이 TFLite 실시간 추론 | Python, Keras, TFLite, OpenCV |
+| [📚 AI System Project 2026](https://github.com/gurwn031107-web/AI-System-Project-2026) | Python 기초 → 머신러닝 기초 → CNN → Keras 실습 → 라즈베리파이 TFLite 실시간 추론 | Python, Keras, TFLite, OpenCV |
+
+> **굵은 글씨**는 대표 프로젝트, 📚은 배우면서 작성한 실습 코드 모음입니다.
 
 ---
 
