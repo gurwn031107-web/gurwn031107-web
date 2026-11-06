@@ -1,19 +1,19 @@
-# 👋 안녕하세요, 문혁주입니다
+# 안녕하세요, 문혁주입니다
 
-**RTL 설계 · 검증 · 임베디드 시스템 · 온디바이스 AI**를 공부하고 있습니다.
+**RTL 설계, 검증, 임베디드 시스템, 온디바이스 AI**를 공부하고 있습니다.
 
 ---
 
-## 🙋 About Me
+## About Me
 
-- SystemVerilog로 **RISC-V RV32I CPU**와 **APB 버스 주변장치**를 설계하고, **UVM**으로 랜덤·경계값 검증 환경을 구축했습니다.
-- **STM32**에서 타이머 인터럽트, I2C(LCD·RTC), 스텝모터 제어를 계층 구조(ap / driver)로 구현했습니다.
+- SystemVerilog로 **RISC-V RV32I CPU**와 **APB 버스 주변장치**를 설계하고, **UVM**으로 랜덤, 경계값 검증 환경을 구축했습니다.
+- **STM32**에서 타이머 인터럽트, I2C(LCD, RTC), 스텝모터 제어를 계층 구조(ap / driver)로 구현했습니다.
 - **Raspberry Pi**에서 TFLite 모델과 MediaPipe로 카메라 기반 인식 시스템을 만들었습니다.
 - 관심 분야: RTL Design, Functional Verification, FPGA, Embedded Systems, Edge AI
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **HDL / Verification**
 
@@ -49,29 +49,25 @@
 
 ---
 
-## 🔌 STM32
+## STM32
 
 | Project | Description | Skills |
 |---|---|---|
-| [**STM32 통합 시계**](https://github.com/gurwn031107-web/stm32-integrated-clock-lcd-rtc-stepmotor) | DS3231 RTC 시계 + 스톱워치, I2C LCD 표시, 스텝모터 3개로 실제 시·분·초 바늘 구동 | STM32, C, HAL, I2C, Timer IRQ |
-| [📚 STM32 Embedded Project 2026](https://github.com/gurwn031107-web/STM32-Embedded-Project-2026) | 수업 실습 23개: GPIO 레지스터 제어 → 타이머 인터럽트 → I2C LCD·RTC → 스텝모터 → DHT11·HC-SR04·ADC → PWM 부저 → UART 프로토콜·PC GUI → 엘리베이터 | STM32, C, HAL, Python(PySide6) |
+| [**STM32 통합 시계**](https://github.com/gurwn031107-web/stm32-integrated-clock-lcd-rtc-stepmotor) | DS3231 RTC 시계 + 스톱워치, I2C LCD 표시, 스텝모터 3개로 시/분/초 바늘 구동 | STM32, C, HAL, I2C, Timer IRQ |
+| [STM32 Embedded Project 2026 (실습)](https://github.com/gurwn031107-web/STM32-Embedded-Project-2026) | 수업 실습 23개 (GPIO, 타이머 인터럽트, I2C LCD/RTC, 스텝모터, DHT11/HC-SR04/ADC, PWM 부저, UART 통신 PC GUI, 엘리베이터) | STM32, C, HAL, Python(PySide6) |
 
-## 🧩 Xilinx (RTL / UVM)
-
-| Project | Description | Skills |
-|---|---|---|
-| [**RV32I Multi-Cycle CPU + UVM**](https://github.com/gurwn031107-web/proj_rv32i_multi_cycle_cpu) | RV32I 멀티사이클 CPU + APB 주변장치(BRAM·GPI·GPO), 19개 R/I-Type 명령어 80,000건 UVM 랜덤 검증 (팀) | SystemVerilog, UVM, VCS, Verdi, APB |
-| [📚 Semiconductor System Design Project 2026](https://github.com/gurwn031107-web/Semiconductor-System-Design-Project-2026) | Verilog 16개(게이트 → FSM → UART·FIFO·센서 → 미니 프로젝트), CPU/SoC 6개(Dedicated CPU → RV32I → APB), 검증 8개(SV 테스트벤치 → OOP → UVM) | Verilog, SystemVerilog, UVM, Vivado, VCS, Basys-3 |
-
-## 🤖 AI System
+## Xilinx (RTL / UVM)
 
 | Project | Description | Skills |
 |---|---|---|
-| [**WAKEY 미션 알람시계**](https://github.com/gurwn031107-web/wakey-mission-alarm-clock) | 손 패턴·물건 찾기·눈 뜸 유지 3가지 카메라 미션을 통과해야 꺼지는 알람시계 (팀) | Raspberry Pi, Python, Flask, MediaPipe, TFLite, YOLO11n |
-| [📚 AI System Project 2026](https://github.com/gurwn031107-web/AI-System-Project-2026) | Python 기초 → 머신러닝 기초 → CNN → Keras 실습 → 라즈베리파이 TFLite 실시간 추론 | Python, Keras, TFLite, OpenCV |
+| [**RV32I Multi-Cycle CPU + UVM**](https://github.com/gurwn031107-web/proj_rv32i_multi_cycle_cpu) | RV32I 멀티사이클 CPU + APB 주변장치(BRAM, GPI, GPO), 19개 R/I-Type 명령어 80,000건 UVM 랜덤 검증 (팀) | SystemVerilog, UVM, VCS, Verdi, APB |
+| [Semiconductor System Design Project 2026 (실습)](https://github.com/gurwn031107-web/Semiconductor-System-Design-Project-2026) | Verilog 실습 16개 (게이트, FSM, UART/FIFO, 센서, 미니 프로젝트), CPU 설계 6개 (Dedicated CPU, RV32I, APB), 검증 8개 (SV 테스트벤치, OOP, UVM) | Verilog, SystemVerilog, UVM, Vivado, VCS, Basys-3 |
 
-> **굵은 글씨**는 대표 프로젝트, 📚은 배우면서 작성한 실습 코드 모음입니다.
+## AI System
 
----
+| Project | Description | Skills |
+|---|---|---|
+| [**WAKEY 미션 알람시계**](https://github.com/gurwn031107-web/wakey-mission-alarm-clock) | 손 패턴, 물건 찾기, 눈 뜸 유지 3가지 카메라 미션을 통과해야 꺼지는 알람시계 (팀) | Raspberry Pi, Python, Flask, MediaPipe, TFLite, YOLO11n |
+| [AI System Project 2026 (실습)](https://github.com/gurwn031107-web/AI-System-Project-2026) | Python 기초, 머신러닝 기초, CNN, Keras 실습, 라즈베리파이 TFLite 추론 | Python, Keras, TFLite, OpenCV |
 
-<p align="center">방문해 주셔서 감사합니다 🙌</p>
+> 분야별 첫 줄은 대표 프로젝트, 두 번째 줄은 수업 시간에 작성한 실습 코드 모음입니다.
